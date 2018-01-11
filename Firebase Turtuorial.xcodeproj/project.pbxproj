@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8491551C2007C5AE008FE01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491551B2007C5AE008FE01C /* AppDelegate.swift */; };
+		8491551E2007C5AE008FE01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491551D2007C5AE008FE01C /* ViewController.swift */; };
+		849155212007C5AE008FE01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8491551F2007C5AE008FE01C /* Main.storyboard */; };
+		849155232007C5AE008FE01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849155222007C5AE008FE01C /* Assets.xcassets */; };
+		849155262007C5AE008FE01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849155242007C5AE008FE01C /* LaunchScreen.storyboard */; };
+		849155312007C5AF008FE01C /* Firebase_TurtuorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849155302007C5AF008FE01C /* Firebase_TurtuorialTests.swift */; };
+		8491553C2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491553B2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8491552D2007C5AE008FE01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849155102007C5AD008FE01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849155172007C5AD008FE01C;
+			remoteInfo = "Firebase Turtuorial";
+		};
+		849155382007C5AF008FE01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849155102007C5AD008FE01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849155172007C5AD008FE01C;
+			remoteInfo = "Firebase Turtuorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849155182007C5AE008FE01C /* Firebase Turtuorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Turtuorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8491551B2007C5AE008FE01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8491551D2007C5AE008FE01C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849155202007C5AE008FE01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849155222007C5AE008FE01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849155252007C5AE008FE01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849155272007C5AE008FE01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8491552C2007C5AE008FE01C /* Firebase TurtuorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase TurtuorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849155302007C5AF008FE01C /* Firebase_TurtuorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_TurtuorialTests.swift; sourceTree = "<group>"; };
+		849155322007C5AF008FE01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849155372007C5AF008FE01C /* Firebase TurtuorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase TurtuorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8491553B2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_TurtuorialUITests.swift; sourceTree = "<group>"; };
+		8491553D2007C5AF008FE01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849155152007C5AD008FE01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849155292007C5AE008FE01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849155342007C5AF008FE01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8491550F2007C5AD008FE01C = {
+			isa = PBXGroup;
+			children = (
+				8491551A2007C5AE008FE01C /* Firebase Turtuorial */,
+				8491552F2007C5AF008FE01C /* Firebase TurtuorialTests */,
+				8491553A2007C5AF008FE01C /* Firebase TurtuorialUITests */,
+				849155192007C5AE008FE01C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849155192007C5AE008FE01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849155182007C5AE008FE01C /* Firebase Turtuorial.app */,
+				8491552C2007C5AE008FE01C /* Firebase TurtuorialTests.xctest */,
+				849155372007C5AF008FE01C /* Firebase TurtuorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8491551A2007C5AE008FE01C /* Firebase Turtuorial */ = {
+			isa = PBXGroup;
+			children = (
+				8491551B2007C5AE008FE01C /* AppDelegate.swift */,
+				8491551D2007C5AE008FE01C /* ViewController.swift */,
+				8491551F2007C5AE008FE01C /* Main.storyboard */,
+				849155222007C5AE008FE01C /* Assets.xcassets */,
+				849155242007C5AE008FE01C /* LaunchScreen.storyboard */,
+				849155272007C5AE008FE01C /* Info.plist */,
+			);
+			path = "Firebase Turtuorial";
+			sourceTree = "<group>";
+		};
+		8491552F2007C5AF008FE01C /* Firebase TurtuorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				849155302007C5AF008FE01C /* Firebase_TurtuorialTests.swift */,
+				849155322007C5AF008FE01C /* Info.plist */,
+			);
+			path = "Firebase TurtuorialTests";
+			sourceTree = "<group>";
+		};
+		8491553A2007C5AF008FE01C /* Firebase TurtuorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8491553B2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift */,
+				8491553D2007C5AF008FE01C /* Info.plist */,
+			);
+			path = "Firebase TurtuorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849155172007C5AD008FE01C /* Firebase Turtuorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849155402007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase Turtuorial" */;
+			buildPhases = (
+				849155142007C5AD008FE01C /* Sources */,
+				849155152007C5AD008FE01C /* Frameworks */,
+				849155162007C5AD008FE01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase Turtuorial";
+			productName = "Firebase Turtuorial";
+			productReference = 849155182007C5AE008FE01C /* Firebase Turtuorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8491552B2007C5AE008FE01C /* Firebase TurtuorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849155432007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase TurtuorialTests" */;
+			buildPhases = (
+				849155282007C5AE008FE01C /* Sources */,
+				849155292007C5AE008FE01C /* Frameworks */,
+				8491552A2007C5AE008FE01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8491552E2007C5AE008FE01C /* PBXTargetDependency */,
+			);
+			name = "Firebase TurtuorialTests";
+			productName = "Firebase TurtuorialTests";
+			productReference = 8491552C2007C5AE008FE01C /* Firebase TurtuorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849155362007C5AF008FE01C /* Firebase TurtuorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849155462007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase TurtuorialUITests" */;
+			buildPhases = (
+				849155332007C5AF008FE01C /* Sources */,
+				849155342007C5AF008FE01C /* Frameworks */,
+				849155352007C5AF008FE01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849155392007C5AF008FE01C /* PBXTargetDependency */,
+			);
+			name = "Firebase TurtuorialUITests";
+			productName = "Firebase TurtuorialUITests";
+			productReference = 849155372007C5AF008FE01C /* Firebase TurtuorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849155102007C5AD008FE01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = eman;
+				TargetAttributes = {
+					849155172007C5AD008FE01C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					8491552B2007C5AE008FE01C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849155172007C5AD008FE01C;
+					};
+					849155362007C5AF008FE01C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849155172007C5AD008FE01C;
+					};
+				};
+			};
+			buildConfigurationList = 849155132007C5AD008FE01C /* Build configuration list for PBXProject "Firebase Turtuorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8491550F2007C5AD008FE01C;
+			productRefGroup = 849155192007C5AE008FE01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849155172007C5AD008FE01C /* Firebase Turtuorial */,
+				8491552B2007C5AE008FE01C /* Firebase TurtuorialTests */,
+				849155362007C5AF008FE01C /* Firebase TurtuorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849155162007C5AD008FE01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849155262007C5AE008FE01C /* LaunchScreen.storyboard in Resources */,
+				849155232007C5AE008FE01C /* Assets.xcassets in Resources */,
+				849155212007C5AE008FE01C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491552A2007C5AE008FE01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849155352007C5AF008FE01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849155142007C5AD008FE01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8491551E2007C5AE008FE01C /* ViewController.swift in Sources */,
+				8491551C2007C5AE008FE01C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849155282007C5AE008FE01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849155312007C5AF008FE01C /* Firebase_TurtuorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849155332007C5AF008FE01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8491553C2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8491552E2007C5AE008FE01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849155172007C5AD008FE01C /* Firebase Turtuorial */;
+			targetProxy = 8491552D2007C5AE008FE01C /* PBXContainerItemProxy */;
+		};
+		849155392007C5AF008FE01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849155172007C5AD008FE01C /* Firebase Turtuorial */;
+			targetProxy = 849155382007C5AF008FE01C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8491551F2007C5AE008FE01C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849155202007C5AE008FE01C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849155242007C5AE008FE01C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849155252007C5AE008FE01C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8491553E2007C5AF008FE01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8491553F2007C5AF008FE01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849155412007C5AF008FE01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Firebase Turtuorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-Turtuorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		849155422007C5AF008FE01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Firebase Turtuorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-Turtuorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		849155442007C5AF008FE01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Firebase TurtuorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-TurtuorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Turtuorial.app/Firebase Turtuorial";
+			};
+			name = Debug;
+		};
+		849155452007C5AF008FE01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Firebase TurtuorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-TurtuorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Turtuorial.app/Firebase Turtuorial";
+			};
+			name = Release;
+		};
+		849155472007C5AF008FE01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Firebase TurtuorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-TurtuorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Firebase Turtuorial";
+			};
+			name = Debug;
+		};
+		849155482007C5AF008FE01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Firebase TurtuorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-TurtuorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Firebase Turtuorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849155132007C5AD008FE01C /* Build configuration list for PBXProject "Firebase Turtuorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8491553E2007C5AF008FE01C /* Debug */,
+				8491553F2007C5AF008FE01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849155402007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase Turtuorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849155412007C5AF008FE01C /* Debug */,
+				849155422007C5AF008FE01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849155432007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase TurtuorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849155442007C5AF008FE01C /* Debug */,
+				849155452007C5AF008FE01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849155462007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase TurtuorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849155472007C5AF008FE01C /* Debug */,
+				849155482007C5AF008FE01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849155102007C5AD008FE01C /* Project object */;
+}
