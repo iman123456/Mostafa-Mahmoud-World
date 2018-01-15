@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8424722C200AF8D000523279 /* UINavigationController+Transparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424722B200AF8D000523279 /* UINavigationController+Transparent.swift */; };
+		84247231200C7C2000523279 /* mazaWraaBwabetElmoot.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84247230200C7C2000523279 /* mazaWraaBwabetElmoot.pdf */; };
+		84247233200C854700523279 /* anbar7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84247232200C854700523279 /* anbar7.pdf */; };
+		84247235200C8DBA00523279 /* alaatElnar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84247234200C8DBA00523279 /* alaatElnar.pdf */; };
+		84247237200C91F900523279 /* mokttfat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84247236200C91F900523279 /* mokttfat.pdf */; };
+		84247239200C9DE200523279 /* hewar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84247238200C9DE200523279 /* hewar.pdf */; };
+		8424723B200CA33F00523279 /* menAsrarEL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8424723A200CA33F00523279 /* menAsrarEL.pdf */; };
+		8424723D200CA4D700523279 /* kelmetElser.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8424723C200CA4D700523279 /* kelmetElser.pdf */; };
+		84247240200CA55D00523279 /* elwgod.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8424723E200CA55D00523279 /* elwgod.pdf */; };
+		84247241200CA55D00523279 /* einshtien.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8424723F200CA55D00523279 /* einshtien.pdf */; };
+		84247243200CABEF00523279 /* elshetan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84247242200CABEF00523279 /* elshetan.pdf */; };
+		84247245200CADB400523279 /* mostafamahmoud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84247244200CADB400523279 /* mostafamahmoud.jpg */; };
 		8491551C2007C5AE008FE01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491551B2007C5AE008FE01C /* AppDelegate.swift */; };
-		8491551E2007C5AE008FE01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491551D2007C5AE008FE01C /* ViewController.swift */; };
 		849155212007C5AE008FE01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8491551F2007C5AE008FE01C /* Main.storyboard */; };
 		849155232007C5AE008FE01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849155222007C5AE008FE01C /* Assets.xcassets */; };
 		849155262007C5AE008FE01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849155242007C5AE008FE01C /* LaunchScreen.storyboard */; };
 		849155312007C5AF008FE01C /* Firebase_TurtuorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849155302007C5AF008FE01C /* Firebase_TurtuorialTests.swift */; };
 		8491553C2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491553B2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift */; };
+		84BE34152007DC4700C0F91C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE34142007DC4700C0F91C /* LoginViewController.swift */; };
+		84BE34172007DC7500C0F91C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE34162007DC7500C0F91C /* SignUpViewController.swift */; };
+		84BE34192007DC9600C0F91C /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE34182007DC9600C0F91C /* ResetPasswordViewController.swift */; };
+		84BE341B2007DCAD00C0F91C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE341A2007DCAD00C0F91C /* HomeViewController.swift */; };
+		84BE341D20080EB800C0F91C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84BE341C20080EB800C0F91C /* GoogleService-Info.plist */; };
+		B994BAAB6E63C3DFFEA9D040 /* Pods_Firebase_Turtuorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4A6D2177666F867AB91F01 /* Pods_Firebase_Turtuorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6933295B730DADAA1577CD92 /* Pods_Firebase_Turtuorial_Firebase_TurtuorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Turtuorial_Firebase_TurtuorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AA89432C3CAA36780B78B1 /* Pods-Firebase Turtuorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Turtuorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Turtuorial/Pods-Firebase Turtuorial.debug.xcconfig"; sourceTree = "<group>"; };
+		842470A42009A61100523279 /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "../../Library/Developer/Xcode/DerivedData/Firebase_Turtuorial-ekcakcsormsikhfcejkluvnmspnd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		842470A62009A61D00523279 /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "../../Library/Developer/Xcode/DerivedData/Firebase_Turtuorial-ekcakcsormsikhfcejkluvnmspnd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		842470A82009A62700523279 /* libFBSDKShareKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKShareKit.a; path = "../../Library/Developer/Xcode/DerivedData/Firebase_Turtuorial-ekcakcsormsikhfcejkluvnmspnd/Build/Products/Debug-iphonesimulator/FBSDKShareKit/libFBSDKShareKit.a"; sourceTree = "<group>"; };
+		8424722B200AF8D000523279 /* UINavigationController+Transparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transparent.swift"; sourceTree = "<group>"; };
+		84247230200C7C2000523279 /* mazaWraaBwabetElmoot.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mazaWraaBwabetElmoot.pdf; sourceTree = "<group>"; };
+		84247232200C854700523279 /* anbar7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anbar7.pdf; sourceTree = "<group>"; };
+		84247234200C8DBA00523279 /* alaatElnar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = alaatElnar.pdf; sourceTree = "<group>"; };
+		84247236200C91F900523279 /* mokttfat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mokttfat.pdf; sourceTree = "<group>"; };
+		84247238200C9DE200523279 /* hewar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = hewar.pdf; sourceTree = "<group>"; };
+		8424723A200CA33F00523279 /* menAsrarEL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = menAsrarEL.pdf; sourceTree = "<group>"; };
+		8424723C200CA4D700523279 /* kelmetElser.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = kelmetElser.pdf; sourceTree = "<group>"; };
+		8424723E200CA55D00523279 /* elwgod.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = elwgod.pdf; sourceTree = "<group>"; };
+		8424723F200CA55D00523279 /* einshtien.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = einshtien.pdf; sourceTree = "<group>"; };
+		84247242200CABEF00523279 /* elshetan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = elshetan.pdf; sourceTree = "<group>"; };
+		84247244200CADB400523279 /* mostafamahmoud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mostafamahmoud.jpg; sourceTree = "<group>"; };
 		849155182007C5AE008FE01C /* Firebase Turtuorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Turtuorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8491551B2007C5AE008FE01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8491551D2007C5AE008FE01C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		849155202007C5AE008FE01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849155222007C5AE008FE01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849155252007C5AE008FE01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +80,14 @@
 		849155372007C5AF008FE01C /* Firebase TurtuorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase TurtuorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8491553B2007C5AF008FE01C /* Firebase_TurtuorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_TurtuorialUITests.swift; sourceTree = "<group>"; };
 		8491553D2007C5AF008FE01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BE34142007DC4700C0F91C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84BE34162007DC7500C0F91C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84BE34182007DC9600C0F91C /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		84BE341A2007DCAD00C0F91C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84BE341C20080EB800C0F91C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84DE32796AE6B7E67A327894 /* Pods-Firebase Turtuorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Turtuorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Turtuorial/Pods-Firebase Turtuorial.release.xcconfig"; sourceTree = "<group>"; };
+		CA4A6D2177666F867AB91F01 /* Pods_Firebase_Turtuorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Turtuorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94F2B001912FFCDEEF6D4ED /* Pods_Firebase_Turtuorial_Firebase_TurtuorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Turtuorial_Firebase_TurtuorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B994BAAB6E63C3DFFEA9D040 /* Pods_Firebase_Turtuorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +116,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842470AA2009ADA300523279 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84BE34142007DC4700C0F91C /* LoginViewController.swift */,
+				84BE34162007DC7500C0F91C /* SignUpViewController.swift */,
+				84BE341A2007DCAD00C0F91C /* HomeViewController.swift */,
+				84BE34182007DC9600C0F91C /* ResetPasswordViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		842470AB2009ADBD00523279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8424722B200AF8D000523279 /* UINavigationController+Transparent.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		842470AC2009ADE600523279 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				84BE341C20080EB800C0F91C /* GoogleService-Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		8424722F200C7B9E00523279 /* books */ = {
+			isa = PBXGroup;
+			children = (
+				84247242200CABEF00523279 /* elshetan.pdf */,
+				8424723E200CA55D00523279 /* elwgod.pdf */,
+				8424723F200CA55D00523279 /* einshtien.pdf */,
+				8424723C200CA4D700523279 /* kelmetElser.pdf */,
+				84247230200C7C2000523279 /* mazaWraaBwabetElmoot.pdf */,
+				84247232200C854700523279 /* anbar7.pdf */,
+				84247234200C8DBA00523279 /* alaatElnar.pdf */,
+				84247236200C91F900523279 /* mokttfat.pdf */,
+				84247238200C9DE200523279 /* hewar.pdf */,
+				8424723A200CA33F00523279 /* menAsrarEL.pdf */,
+			);
+			name = books;
+			sourceTree = "<group>";
+		};
+		84247246200CCF2100523279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8424722F200C7B9E00523279 /* books */,
+				84247247200CCF5800523279 /* images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84247247200CCF5800523279 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84247244200CADB400523279 /* mostafamahmoud.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		8491550F2007C5AD008FE01C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +184,8 @@
 				8491552F2007C5AF008FE01C /* Firebase TurtuorialTests */,
 				8491553A2007C5AF008FE01C /* Firebase TurtuorialUITests */,
 				849155192007C5AE008FE01C /* Products */,
+				F98E41C0391C4259B1603E3D /* Pods */,
+				F0CEA765FA56D304F0FEAC44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +203,14 @@
 			isa = PBXGroup;
 			children = (
 				8491551B2007C5AE008FE01C /* AppDelegate.swift */,
-				8491551D2007C5AE008FE01C /* ViewController.swift */,
 				8491551F2007C5AE008FE01C /* Main.storyboard */,
-				849155222007C5AE008FE01C /* Assets.xcassets */,
 				849155242007C5AE008FE01C /* LaunchScreen.storyboard */,
+				84247246200CCF2100523279 /* Supporting Files */,
+				842470AC2009ADE600523279 /* Supporting files */,
+				842470AB2009ADBD00523279 /* View */,
+				842470AA2009ADA300523279 /* Controllers */,
 				849155272007C5AE008FE01C /* Info.plist */,
+				849155222007C5AE008FE01C /* Assets.xcassets */,
 			);
 			path = "Firebase Turtuorial";
 			sourceTree = "<group>";
@@ -125,6 +233,28 @@
 			path = "Firebase TurtuorialUITests";
 			sourceTree = "<group>";
 		};
+		F0CEA765FA56D304F0FEAC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842470A82009A62700523279 /* libFBSDKShareKit.a */,
+				842470A62009A61D00523279 /* libFBSDKLoginKit.a */,
+				842470A42009A61100523279 /* libFBSDKCoreKit.a */,
+				CA4A6D2177666F867AB91F01 /* Pods_Firebase_Turtuorial.framework */,
+				D94F2B001912FFCDEEF6D4ED /* Pods_Firebase_Turtuorial_Firebase_TurtuorialTests.framework */,
+				6933295B730DADAA1577CD92 /* Pods_Firebase_Turtuorial_Firebase_TurtuorialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98E41C0391C4259B1603E3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69AA89432C3CAA36780B78B1 /* Pods-Firebase Turtuorial.debug.xcconfig */,
+				84DE32796AE6B7E67A327894 /* Pods-Firebase Turtuorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849155402007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase Turtuorial" */;
 			buildPhases = (
+				79DA1E1BF91CA8F8DC73B074 /* [CP] Check Pods Manifest.lock */,
 				849155142007C5AD008FE01C /* Sources */,
 				849155152007C5AD008FE01C /* Frameworks */,
 				849155162007C5AD008FE01C /* Resources */,
+				BEFE3AECD63166C7624DA8B8 /* [CP] Embed Pods Frameworks */,
+				F393D663E514EF37B1F6F802 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +365,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8424723B200CA33F00523279 /* menAsrarEL.pdf in Resources */,
 				849155262007C5AE008FE01C /* LaunchScreen.storyboard in Resources */,
+				84247239200C9DE200523279 /* hewar.pdf in Resources */,
+				8424723D200CA4D700523279 /* kelmetElser.pdf in Resources */,
+				84247241200CA55D00523279 /* einshtien.pdf in Resources */,
+				84247240200CA55D00523279 /* elwgod.pdf in Resources */,
+				84247231200C7C2000523279 /* mazaWraaBwabetElmoot.pdf in Resources */,
 				849155232007C5AE008FE01C /* Assets.xcassets in Resources */,
+				84247235200C8DBA00523279 /* alaatElnar.pdf in Resources */,
+				84247233200C854700523279 /* anbar7.pdf in Resources */,
+				84247243200CABEF00523279 /* elshetan.pdf in Resources */,
+				84BE341D20080EB800C0F91C /* GoogleService-Info.plist in Resources */,
+				84247237200C91F900523279 /* mokttfat.pdf in Resources */,
+				84247245200CADB400523279 /* mostafamahmoud.jpg in Resources */,
 				849155212007C5AE008FE01C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +399,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79DA1E1BF91CA8F8DC73B074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Turtuorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEFE3AECD63166C7624DA8B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Turtuorial/Pods-Firebase Turtuorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Turtuorial/Pods-Firebase Turtuorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F393D663E514EF37B1F6F802 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Turtuorial/Pods-Firebase Turtuorial-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase Turtuorial/Pods-Firebase Turtuorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		849155142007C5AD008FE01C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8491551E2007C5AE008FE01C /* ViewController.swift in Sources */,
+				8424722C200AF8D000523279 /* UINavigationController+Transparent.swift in Sources */,
+				84BE34152007DC4700C0F91C /* LoginViewController.swift in Sources */,
+				84BE34192007DC9600C0F91C /* ResetPasswordViewController.swift in Sources */,
+				84BE34172007DC7500C0F91C /* SignUpViewController.swift in Sources */,
 				8491551C2007C5AE008FE01C /* AppDelegate.swift in Sources */,
+				84BE341B2007DCAD00C0F91C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +626,25 @@
 		};
 		849155412007C5AF008FE01C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AA89432C3CAA36780B78B1 /* Pods-Firebase Turtuorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+				);
 				INFOPLIST_FILE = "Firebase Turtuorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-Turtuorial";
@@ -422,8 +655,25 @@
 		};
 		849155422007C5AF008FE01C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DE32796AE6B7E67A327894 /* Pods-Firebase Turtuorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+					"$(PROJECT_DIR)/Firebase\\ Turtuorial",
+				);
 				INFOPLIST_FILE = "Firebase Turtuorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.Firebase-Turtuorial";
@@ -505,6 +755,7 @@
 				849155422007C5AF008FE01C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849155432007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase TurtuorialTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +764,7 @@
 				849155452007C5AF008FE01C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849155462007C5AF008FE01C /* Build configuration list for PBXNativeTarget "Firebase TurtuorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +773,7 @@
 				849155482007C5AF008FE01C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
